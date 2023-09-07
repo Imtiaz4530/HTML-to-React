@@ -1,0 +1,11 @@
+import React from 'react'
+
+const Link = ({ url, title }) => {
+  return (
+      <li>
+          <a href={`/${url}`}>{title}</a>
+    </li>
+  );
+}
+
+export default Link
